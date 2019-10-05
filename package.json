@@ -1,0 +1,28 @@
+{
+  "name": "api-tasks",
+  "version": "1.0.0",
+  "description": "Uma api desenvolvida com Express,bodyParce,JWT,cors etc .Seŕa usada como back-endo do aplicativo movel AppTask.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "keywords": [],
+  "author": "Marcos Fabiano Correia Rangel",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "knex": "^0.19.4",
+    "moment": "^2.24.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "pg": "^7.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}

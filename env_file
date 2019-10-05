@@ -1,0 +1,5 @@
+// Renomear para .env e decrare uma palavra secreta
+
+module.exports = {
+    authSecret: 'minhapalavraSecreta'
+}
